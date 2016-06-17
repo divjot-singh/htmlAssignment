@@ -11,6 +11,7 @@
             width: 600px;
             position: relative;
             left:400px;
+            top:30px;
             
           }
       fieldset{
@@ -36,6 +37,9 @@
         right:10px;
         width:40%;
         border-radius: 4px;
+        padding:1px;
+        margin:1px;
+        border:1px solid black;
       }
       .radioo{
         
@@ -49,6 +53,9 @@
         right: 10px;
         width:40%;
         border-radius: 4px;
+        padding:1px;
+        margin:1px;
+        border:1px solid black;
       }
       #txta
       {
@@ -60,7 +67,7 @@
         height : 11px;
       }
       .button_class{
-        border : solid black;
+        border : 1px solid black;
         border-radius: 10px;
         color : white;
         align-left : center;
@@ -68,6 +75,8 @@
         position : relative;
         left : 43%;
         width:100px;
+        margin: 1px;
+        padding: 1px;
       }
       .trans
       {
@@ -109,6 +118,27 @@
 			    animation-name: example;
 			    animation-duration:10s;
 			}
+			fieldset
+			{
+				margin:2px;
+				padding:1px;
+				border:1px solid black;
+
+			}
+			nav
+			{
+				border:2px solid red;
+				padding:2px;
+				margin:2px;
+				height:20px;
+				width:100%;
+				color:white;
+				background-color: red;
+				position:fixed;
+				top:0px;
+				z-index: 1;
+				text-align: center;
+			}
   </style>
   <script type="text/javascript">
   	function addtrans(elem)
@@ -126,7 +156,11 @@
   </script>
 </head>
 <body>
+<nav>
+  	This is nav Bar
+  </nav>
   <div id="main">
+  
     <form method="POST" action="" >
   
       <fieldset >
